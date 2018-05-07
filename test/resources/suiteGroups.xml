@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="librarySuite" verbose="1">
+	<test name="Groups">
+		<groups>
+			<run>
+				<include name="open MainPage"></include>
+				<include name="logout from MainPage"></include>
+			</run>
+		</groups>
+		<packages>
+			<package name="by.htp.test.*" />
+		</packages>
+	</test>
+</suite>
